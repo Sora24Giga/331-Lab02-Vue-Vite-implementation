@@ -1,21 +1,21 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-
 </script>
 
 <template>
   <header>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+    <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/component">Component</RouterLink>
+    </nav>
   </header>
 
   <RouterView />
 </template>
 
 <style>
-#app { 
+#app {
   front-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-front-smoothing: antialiased;
   -moz-osx-front-smoothing: grayscale;
