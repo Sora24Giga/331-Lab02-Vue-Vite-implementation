@@ -1,9 +1,9 @@
 <template>
     <div class="event-class">
         <div class="event-card">
-        <span>@{{ event.time }} on {{ event.date }}</span>
-        <h4>{{ event.title }}</h4>
-    </div>
+            <span>@{{ event.time }} on {{ event.date }}</span>
+            <h4>{{ event.title }}</h4>
+        </div>
     </div>
 </template>
 
@@ -13,7 +13,7 @@ import type { PropType } from 'vue'
 const props = defineProps({
     event: {
         type: Object as PropType<EventItem>,
-            required: true
+        required: true
     }
 })
 
